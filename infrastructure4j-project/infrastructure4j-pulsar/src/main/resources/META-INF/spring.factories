@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.reopenai.infrastructure4j.pulsar.PulsarAutoConfiguration

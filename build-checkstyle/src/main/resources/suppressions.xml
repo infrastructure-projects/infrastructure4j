@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+        "-//Puppy Crawl//DTD Suppressions X.Y//EN"
+        "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+<suppressions>
+    <!-- 忽略所有 .xml 文件 -->
+    <suppress checks="FileContents" files=".*\.xml" />
+    <!-- 忽略protobuf生成的文件 -->
+    <suppress checks="FileContents" files=".*[\\/]proto[\\/].*" />
+    <!-- 忽略测试文件 -->
+    <suppress checks="FileContents" files=".*[\\/]test[\\/].*" />
+</suppressions>
