@@ -9,7 +9,7 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>infrastructure4j-orm</artifactId>
+    <artifactId>infrastructure4j-rsocket</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -23,13 +23,13 @@
             <artifactId>hutool-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.reopenai</groupId>
-            <artifactId>infrastructure4j-beans</artifactId>
-            <version>${revision}</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-rsocket</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

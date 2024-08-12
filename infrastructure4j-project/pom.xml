@@ -19,6 +19,7 @@
         <module>infrastructure4j-pulsar</module>
         <module>infrastructure4j-webmvc</module>
         <module>infrastructure4j-observability</module>
+        <module>infrastructure4j-rsocket</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 
